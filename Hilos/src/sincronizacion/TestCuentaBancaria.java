@@ -1,4 +1,4 @@
-package operacionBancaria;
+package sincronizacion;
 
 public class TestCuentaBancaria {
 

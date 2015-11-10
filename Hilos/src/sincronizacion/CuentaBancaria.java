@@ -1,4 +1,4 @@
-package operacionBancaria;
+package sincronizacion;
 
 public class CuentaBancaria {
 	
@@ -8,11 +8,10 @@ public class CuentaBancaria {
 	 * @param saldo
 	 */
 	public CuentaBancaria(double saldo) {
-		super();
 		this.saldo = saldo;
 	}
 	
-	public  void ingresarDinero(double ingreso){
+	public void ingresarDinero(double ingreso){
 		this.saldo += ingreso;
 		System.out.println("El saldo tras el ingreso de dinero es: "+this.saldo);
 	}
